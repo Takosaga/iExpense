@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A5B3E3E62420148000100906 /* AddView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5B3E3E52420148000100906 /* AddView.swift */; };
 		A5F0F4E1241EDFF3003E11D0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5F0F4E0241EDFF3003E11D0 /* AppDelegate.swift */; };
 		A5F0F4E3241EDFF3003E11D0 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5F0F4E2241EDFF3003E11D0 /* SceneDelegate.swift */; };
 		A5F0F4E5241EDFF3003E11D0 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5F0F4E4241EDFF3003E11D0 /* ContentView.swift */; };
@@ -16,6 +17,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		A5B3E3E52420148000100906 /* AddView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddView.swift; sourceTree = SOURCE_ROOT; };
 		A5F0F4DD241EDFF3003E11D0 /* iExpense.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iExpense.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A5F0F4E0241EDFF3003E11D0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A5F0F4E2241EDFF3003E11D0 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -56,6 +58,7 @@
 		A5F0F4DF241EDFF3003E11D0 /* iExpense */ = {
 			isa = PBXGroup;
 			children = (
+				A5B3E3E52420148000100906 /* AddView.swift */,
 				A5F0F4E0241EDFF3003E11D0 /* AppDelegate.swift */,
 				A5F0F4E2241EDFF3003E11D0 /* SceneDelegate.swift */,
 				A5F0F4E4241EDFF3003E11D0 /* ContentView.swift */,
@@ -146,6 +149,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A5B3E3E62420148000100906 /* AddView.swift in Sources */,
 				A5F0F4E1241EDFF3003E11D0 /* AppDelegate.swift in Sources */,
 				A5F0F4E3241EDFF3003E11D0 /* SceneDelegate.swift in Sources */,
 				A5F0F4E5241EDFF3003E11D0 /* ContentView.swift in Sources */,
