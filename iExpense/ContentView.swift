@@ -62,12 +62,15 @@ struct ContentView: View {
                         
                         Spacer()
                         Text("$\(item.amount)")
+                        
                     }
                 }
                 .onDelete(perform: removeItems)
             }
+            
             .navigationBarTitle("iExpense")
-            .navigationBarItems(trailing:
+            
+            .navigationBarItems(leading: EditButton(), trailing:
                 Button(action: {
                     self.showingAddExpense = true
                 }) {
@@ -77,6 +80,7 @@ struct ContentView: View {
                 .sheet(isPresented: $showingAddExpense) {
                     AddView(expenses: self.expenses)
             }
+
         }
     }
     
